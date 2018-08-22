@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  .clearfix{
+    zoom: 1;
+      &:after{
+          content:'';
+          width: 0;
+          height:0;
+          display: block;
+          clear: both;
+      }
+  }
+  body{
+    background: #fff;
+  }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0
+}
+body, button, input, select, textarea {
+  font: 12px "microsoft yahei";
+  line-height: 1.5;
+  -ms-overflow-style: scrollbar
+}
+ul, ol {
+  list-style: none
+}
+a {
+  text-decoration: none;
+  cursor:pointer
+}
+a:hover {
+  text-decoration: underline
+}
+img {
+  border: 0
+}
+button, input, select, textarea {
+  font-size: 100%
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
